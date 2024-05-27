@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .bg-mobile-light {
+        background-image: url('/public/images/bg-mobile-light.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .bg-mobile-dark {
+        background-image: url('/public/images/bg-mobile-dark.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .bg-desktop-light {
+        background-image: url('/public/images/bg-desktop-light.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .bg-desktop-dark {
+        background-image: url('/public/images/bg-desktop-dark.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .completed {
+        background: linear-gradient(45deg, #55DDFF, #C058F3);
+
+    }
+
+    .todo-row {
+        border-bottom-width: 1px;
+        border-bottom-color: #E3E4F1;
+    }
+
+    .todo-row:last-child {
+        border-bottom-width: 0px;
+        border-bottom-color: transparent;
+    }
+
+    .todo-row-dark {
+        border-bottom-width: 1px;
+        border-bottom-color: #393A4B;
+    }
+
+    .todo-row-dark:last-child {
+        border-bottom-width: 0px;
+        border-bottom-color: transparent;
+    }
+
+    .active {
+        color: #3A7CFD !important;
+    }
+}
